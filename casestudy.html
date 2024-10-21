@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DA Agency - Case Studies</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-nMN0z+8y3B0n62ufk9jvck6nZL4UOkd+0c2BFTIql5k3ZCZ3uORfekWJgfmc9U5S"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .case-study-main .case-study-container {
+        max-width: 1000px; /* Keep a maximum width */
+        margin: 0 auto; /* Center the container */
+        padding: 50px 20px; /* Consistent padding */
+      }
+
+      .case-study-main .case-study-slide {
+        display: flex; /* Use flexbox for alignment */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center items */
+      }
+
+      .case-study-main .case-study-slide img {
+        width: 20%; /* Ensure the image fits within the container */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 8px; /* Rounded corners */
+        margin: auto;
+        text-align: center;
+        margin-bottom: 15px; /* Space below the image */
+      }
+
+      .case-study-main .slick-slider .slick-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .case-study-main .slide-content h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .case-study-main .slide-content p {
+        font-size: 16px;
+        color: #555;
+      }
+
+      .case-study-main .slick-slider-nav .slick-slide {
+        padding: 0;
+      }
+
+      .case-study-main .slick-slider-nav .slick-slide img {
+        width: 90px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 4px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .case-study-main .case-study-slider-nav img {
+        max-width: 100%;
+        width: 200px;
+        height: 200px;
+      }
+
+      /* Case Study Header */
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #444;
+      }
+
+      @media (max-width: 768px) {
+        .case-study-main .slick-slider-nav .slick-slide img {
+          width: 60px;
+          height: 40px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <!-- Case studies -->
+    <section class="case-study-main">
+      <div class="container case-study-container">
+        <h1 class="text-center mb-5">Case Studies</h1>
+
+        <!-- Main Case Study Slider -->
+        <div class="slick-slider case-study-slider-for">
+          <div class="case-study-slide">
+            <img
+              src="./assests/main-images/birlacase.png"
+              alt="Birla A1"
+              class="img-fluid"
+            />
+            <div class="slide-content">
+              <h4>Birla A1</h4>
+              <p>
+                <strong>Overview:</strong> Birla A1 is a prominent cement brand
+                known for its high-quality products and sustainable practices.
+                <br /><strong>Objective:</strong> To enhance digital presence
+                and engage a broader audience through targeted marketing
+                strategies. <br /><strong>Strategies:</strong> Focused on
+                creating a user-friendly website and engaging social media
+                campaigns that resonate with customers. <br /><strong
+                  >Outcome:</strong
+                >
+                Achieved a 30% increase in online engagement and boosted sales
+                by 20%.
+              </p>
+            </div>
+          </div>
+
+          <div class="case-study-slide">
+            <img
+              src="./assests/main-images/supremecase.png"
+              alt="Supreme"
+              class="img-fluid"
+            />
+            <div class="slide-content">
+              <h4>Supreme</h4>
+              <p>
+                <strong>Overview:</strong> Supreme is a global streetwear brand
+                that is recognized for its unique designs and cultural impact.
+                <br /><strong>Objective:</strong> To build brand loyalty and
+                increase sales through innovative marketing and outreach.
+                <br /><strong>Strategies:</strong> Implemented exclusive product
+                launches and collaborated with influential figures to reach
+                wider audiences. <br /><strong>Outcome:</strong> Achieved a 50%
+                rise in repeat purchases and significantly enhanced brand
+                visibility.
+              </p>
+            </div>
+          </div>
+
+          <div class="case-study-slide">
+            <img
+              src="./assests/main-images/shakticase.png"
+              alt="Shakti"
+              class="img-fluid"
+            />
+            <div class="slide-content">
+              <h4>Shakti</h4>
+              <p>
+                <strong>Overview:</strong> Shakti is a women's empowerment
+                initiative aimed at providing education and resources for women.
+                <br /><strong>Objective:</strong> To increase awareness and
+                participation in programs designed to uplift women in the
+                community. <br /><strong>Strategies:</strong> Launched impactful
+                campaigns and partnered with local businesses to enhance
+                community outreach. <br /><strong>Outcome:</strong> Increased
+                program participation by 40% and strengthened community ties.
+              </p>
+            </div>
+          </div>
+
+          <div class="case-study-slide">
+            <img
+              src="./assests/main-images/wondercase.png"
+              alt="Wonder"
+              class="img-fluid"
+            />
+            <div class="slide-content">
+              <h4>Wonder</h4>
+              <p>
+                <strong>Overview:</strong> Wonder is a health-focused food brand
+                that emphasizes organic ingredients and healthy eating.
+                <br /><strong>Objective:</strong> To create a strong online
+                presence and engage health-conscious consumers effectively.
+                <br /><strong>Strategies:</strong> Developed an informative
+                website and utilized social media platforms for outreach and
+                engagement. <br /><strong>Outcome:</strong> Notable growth of
+                25% in social media followers and a significant increase in
+                product sales.
+              </p>
+            </div>
+          </div>
+
+          <div class="case-study-slide">
+            <img
+              src="./assests/main-images/solarizecase.png"
+              alt="Wonder"
+              class="img-fluid"
+            />
+            <div class="slide-content">
+              <h4>Solarize</h4>
+              <p>
+                <strong>Overview:</strong> Wonder is a health-focused food brand
+                that emphasizes organic ingredients and healthy eating.
+                <br /><strong>Objective:</strong> To create a strong online
+                presence and engage health-conscious consumers effectively.
+                <br /><strong>Strategies:</strong> Developed an informative
+                website and utilized social media platforms for outreach and
+                engagement. <br /><strong>Outcome:</strong> Notable growth of
+                25% in social media followers and a significant increase in
+                product sales.
+              </p>
+            </div>
+          </div>
+
+          <div class="case-study-slide">
+            <img
+              src="./assests/main-images/sangVcase.png"
+              alt="Wonder"
+              class="img-fluid"
+            />
+            <div class="slide-content">
+              <h4>Sang-V</h4>
+              <p>
+                <strong>Overview:</strong> Wonder is a health-focused food brand
+                that emphasizes organic ingredients and healthy eating.
+                <br /><strong>Objective:</strong> To create a strong online
+                presence and engage health-conscious consumers effectively.
+                <br /><strong>Strategies:</strong> Developed an informative
+                website and utilized social media platforms for outreach and
+                engagement. <br /><strong>Outcome:</strong> Notable growth of
+                25% in social media followers and a significant increase in
+                product sales.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation Thumbnails -->
+        <div class="slick-slider case-study-slider-nav mt-4">
+          <div class="card">
+            <img
+              src="./assests/main-images/birlacase.png"
+              alt="Birla A1 Thumbnail"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="./assests/main-images/supremecase.png"
+              alt="Supreme Thumbnail"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="./assests/main-images/shakticase.png"
+              alt="Shakti Thumbnail"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="./assests/main-images/wondercase.png"
+              alt="Wonder Thumbnail"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="./assests/main-images/solarizecase.png"
+              alt="Wonder Thumbnail"
+            />
+          </div>
+          <div class="card">
+            <img
+              src="./assests/main-images/sangVcase.png"
+              alt="Wonder Thumbnail"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4JQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        // Initialize main slider
+        $(".case-study-slider-for").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: false,
+          infinite: true, // Ensure it loops
+          fade: true,
+          asNavFor: ".case-study-slider-nav",
+        });
+
+        // Initialize navigation slider
+        $(".case-study-slider-nav").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: ".case-study-slider-for",
+          dots: false,
+          arrows: true,
+          centerMode: true,
+          focusOnSelect: true,
+          infinite: true, // Ensure it loops
+        });
+
+        // Sync the slider based on the 'case' parameter in the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const caseIndex = urlParams.get("case"); // Get the case index from the URL
+
+        if (caseIndex) {
+          $(".case-study-slider-for").slick("slickGoTo", caseIndex - 1);
+        }
+      });
+    </script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

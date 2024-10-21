@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study: Web Development Trends</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Base styles for body and container */
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #007bff;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .case-study-card {
+            border: none;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            margin-bottom: 30px;
+        }
+
+        .case-study-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-title {
+            font-size: 1.75rem;
+            font-weight: bold;
+            color: #343a40;
+            margin-top: 1rem;
+        }
+
+        .card-text {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .img-fluid {
+            border-radius: 0.5rem;
+            margin-bottom: 20px;
+        }
+
+        ol {
+            margin-left: 20px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 0.5rem;
+        }
+
+        .author-info {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 0.5rem;
+            margin-top: 20px;
+        }
+
+        .author-info strong {
+            color: #007bff;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .card-title {
+                font-size: 1.5rem;
+            }
+
+            .card-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Case Study: Web Development Trends</h1>
+
+        <div class="card case-study-card">
+            <img src="https://via.placeholder.com/800x400/007bff/ffffff?text=Web+Development+Trends" class="card-img-top" alt="Web Development Trends">
+            <div class="card-body">
+                <h2 class="card-title">Introduction</h2>
+                <p class="card-text">This case study explores the latest trends in web development, focusing on responsive design and user experience. With the rise of mobile usage, the need for better mobile experiences has become essential in web development practices.</p>
+
+                <img src="https://via.placeholder.com/800x300/343a40/ffffff?text=Responsive+Design+Example" class="img-fluid" alt="Responsive Design Example">
+
+                <div class="author-info">
+                    <h3 class="card-title">Author Information</h3>
+                    <p><strong>Author:</strong> John Doe</p>
+                    <p><strong>Date Published:</strong> October 9, 2024</p>
+                    <p><strong>Institution:</strong> Web Development Institute</p>
+                </div>
+
+                <h2 class="card-title">Methodology</h2>
+                <p class="card-text">The study was conducted using a mixed-methods approach, incorporating both quantitative and qualitative data collection techniques. Surveys were distributed to web developers, and in-depth interviews were conducted with industry experts.</p>
+
+                <h2 class="card-title">Findings</h2>
+                <p class="card-text">The findings reveal that:</p>
+                <ul>
+                    <li>85% of developers prioritize responsive design in their projects.</li>
+                    <li>Over 70% agree that user experience is critical for retaining visitors.</li>
+                    <li>Emerging technologies such as Progressive Web Apps (PWAs) are gaining traction.</li>
+                </ul>
+
+                <h2 class="card-title">Conclusion</h2>
+                <p class="card-text">In conclusion, as web development continues to evolve, embracing responsive design and user-centric approaches will be key to staying ahead in the industry. Organizations must adapt to the changing landscape to meet user expectations.</p>
+
+                <img src="https://via.placeholder.com/800x300/28a745/ffffff?text=Future+of+Web+Development" class="img-fluid" alt="Future of Web Development">
+
+                <h2 class="card-title">References</h2>
+                <ol>
+                    <li>Smith, J. (2024). The Importance of Responsive Design. Journal of Web Development.</li>
+                    <li>Johnson, A. (2023). User Experience and Web Design. Web Development Institute.</li>
+                    <li>Williams, R. (2024). Future Trends in Web Development. Tech Innovations.</li>
+                </ol>
+
+                <button class="btn btn-primary mt-3" onclick="showDetails()">Contact Author</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Web Development Institute. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function showDetails() {
+            alert("For inquiries, please contact John Doe at johndoe@example.com.");
+        }
+    </script>
+</body>
+
+</html>
